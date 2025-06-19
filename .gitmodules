@@ -1,0 +1,3 @@
+[submodule "raycast-npm"]
+	path = raycast-npm
+	url = https://github.com/gebeto/raycast-npm
