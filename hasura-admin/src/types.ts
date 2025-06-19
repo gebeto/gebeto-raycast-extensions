@@ -10,13 +10,9 @@ export type ActionMetadata = {
     type: "mutation";
     kind: "synchronous" | "synchronous";
   };
-  permissions: [
-    { role: "cx_admin" },
-    { role: "anonymous" },
-    { role: "patient" },
-    { role: "provider" },
-    { role: "superadmin" }
-  ];
+  permissions: {
+    role: string;
+  }[];
 };
 
 export type Metadata = {
